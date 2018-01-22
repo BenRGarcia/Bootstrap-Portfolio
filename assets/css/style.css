@@ -16,6 +16,11 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+.image-banner {
+  bottom: 15px;
+  background-color: #4aaaa5;
+}
+
 .footer-border {
   border-top: 4px solid #4aaaa5;
 }
