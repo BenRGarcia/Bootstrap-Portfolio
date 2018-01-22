@@ -1,32 +1,29 @@
 body {
   background: url('../images/concrete_seamless.png');
-  margin-bottom: 75px;
+  margin-bottom: 75px; /* Make space for sticky footer */
 }
 
-.h1, 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Georgia', Times, 'Times New Roman', serif;
-  color: #4aaaa5;
-}
-
-.header-logo {
-  background-color: #4aaaa5;
-}
-
-.image-banner {
-  bottom: 15px;
-  background-color: #4aaaa5;
-}
-
-textarea {
-  min-height: 100px;
-  max-height: 250px;
-}
-
-.btn {
+.bg-teal {
   background-color: #4aaaa5;
 }
 
 .footer-border {
   border-top: 4px solid #4aaaa5;
+}
+
+/* All headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  color: #4aaaa5;
+}
+
+/* Portfolio Page */
+.image-banner {
+  bottom: 15px;
+}
+
+/* Contact Page */
+textarea {
+  min-height: 100px;
+  max-height: 250px;
 }

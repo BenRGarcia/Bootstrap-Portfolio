@@ -11,6 +11,9 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
+  <!-- Link to Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+
   <title>Web Dev Ben | Contact</title>
 </head>
 <body>
@@ -20,7 +23,7 @@
     <header class="mb-4 border-bottom border-dark bg-light">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light p-0">
-          <h3 class="header-logo text-white m-0 py-4 px-3">Benjamin R. Garcia</h3>
+          <h3 class="bg-teal text-white m-0 py-4 px-3">Benjamin R. Garcia</h3>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -49,37 +52,34 @@
       <!-- 'Contact' Blurb -->
       <div class="col-lg-8">
         <article class="mb-4 p-4 bg-light clearfix">
-          <!-- Change stuff below here -->
-
+          <h1>Contact</h1>
+          <hr>
           <form>
             <fieldset>
-              <legend class="h1">Contact</legend>
-              <hr>
+              <legend class="d-none">Contact</legend>
               <!-- Name -->
               <div class="form-group">
-                <label for="name">Name</label>
+                <label class="text-secondary" for="name">Name</label>
                 <input class="form-control" id="name" type="text" name="name" placeholder="ex. Linus Torvalds" required>
               </div>
               <!-- Email -->
               <div class="form-group">
-                <label for="email">Email</label>
+                <label class="text-secondary" for="email">Email</label>
                 <input class="form-control" id="email" type="email" name="email" placeholder="you@example.com" required>
               </div>
               <!-- Message -->
               <div class="form-group">
-                <label for="message">Message</label>
+                <label class="text-secondary" for="message">Message</label>
                 <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
               </div>
               <!-- Submit Button -->
-                <input class="btn btn-lg text-white" type="submit" value="Submit">
+              <input class="btn btn-lg text-white bg-teal" type="submit" value="Submit">
             </fieldset>
           </form>
-
-          <!-- Change stuff above here -->
         </article>
       </div> <!-- End 'Contact' Blurb -->
 
-      <!-- Create spacer on screen sized md and below -->
+      <!-- Create spacer on screen sizes md and below -->
       <div class="col-1 col-sm-2 col-md-3 d-lg-none"></div>
 
       <!-- Social Links -->
@@ -110,7 +110,7 @@
         </aside>
       </div> <!-- End Social Links -->
 
-      <!-- Create spacer on screen sized md and below -->
+      <!-- Create spacer on screen sizes md and below -->
       <div class="col-1 col-sm-2 col-md-3 d-lg-none"></div>
 
     </div> <!-- End Row -->
