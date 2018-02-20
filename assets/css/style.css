@@ -28,3 +28,7 @@ textarea {
   min-height: 100px;
   max-height: 250px;
 }
+
+.portfolio-image {
+  max-height: 264px;
+}
